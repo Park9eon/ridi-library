@@ -5,6 +5,6 @@
 
    > node index.js $username $password
 
-2. ![DEMO](http://park9eon.com/ridi-library)
+2. ![](public/screenshot.png)
 
-  
+3. [DEMO](http://park9eon.com/ridi-library)
