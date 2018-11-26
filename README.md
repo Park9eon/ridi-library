@@ -5,7 +5,7 @@
 
 1. 사용법
 
-   > node index.js $username $password
+   > node app.js $username $password
 
 2. ![](public/screenshot.png)
 

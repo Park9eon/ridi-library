@@ -1,16 +1,17 @@
 {
   "name": "ridi-library",
-  "version": "1.0.0",
+  "version": "2.0.0",
   "description": "",
-  "main": "index.js",
+  "main": "app.js",
   "scripts": {
-    "test": "echo \"Error: no test specified\" && exit 1"
+    "start": "node app.js"
   },
-  "author": "",
-  "license": "ISC",
+  "private": false,
+  "author": "Park9eon",
+  "license": "MIT",
   "dependencies": {
-    "cheerio": "^1.0.0-rc.2",
-    "request-cookies": "^1.1.0",
-    "rx": "^4.1.0"
+    "dotenv": "^6.1.0",
+    "request": "^2.88.0",
+    "request-promise": "^4.2.2"
   }
 }
