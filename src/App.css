@@ -1,0 +1,57 @@
+p, h1 {
+  padding: 0;
+  margin: 0;
+}
+
+.App-container {
+  display: flex;
+  flex-wrap: wrap;
+  justify-content: space-evenly;
+}
+
+.App-book {
+  cursor: pointer;
+  width: 165px;
+  height: 238px;
+  position: relative;
+  margin: 8px 0;
+}
+
+.App-book-background {
+  position: absolute;
+  top: 0;
+  right: 0;
+  bottom: 0;
+  left: 0;
+  overflow: hidden;
+}
+
+.App-book-background img {
+  width: 100%;
+  height: 100%;
+}
+
+.App-book:hover .App-book-info {
+  opacity: .3;
+}
+
+.App-book-info {
+  position: absolute;
+  right: 0;
+  bottom: 0;
+  left: 0;
+  padding: 4px;
+  background: rgba(0, 0, 0, 0.4);
+}
+
+.App-book-title {
+  font-size: 1rem;
+  font-weight: 700;
+  color: #fff;
+}
+
+.App-book-author {
+  font-size: 1rem;
+  font-weight: 400;
+  color: #fff;
+}

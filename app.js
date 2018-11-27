@@ -95,6 +95,10 @@ const reqLoginOauth2 = async (clientId) => {
  *             id: Number,
  *             name: String
  *         }] | undefined,
+ *         story_writer: [{
+ *             id: Number,
+ *             name: String
+ *         }] | undefined,
  *         illustrator: [{
  *             id: Number,
  *             name: String
@@ -237,7 +241,7 @@ const reqBookMetaList = async (unitId = null, offset = 0, limit = 20) => {
             log(`⌞   ------------------------------------------------------`)
             await delay(5000);
         }
-        await fs.writeFileSync('data.json', JSON.stringify(data, null, 4), 'utf8');
+        await fs.writeFileSync('src/data.json', JSON.stringify(data, null, 4), 'utf8');
         log('종료되었습니다.');
     } catch (e) {
         log(e);
