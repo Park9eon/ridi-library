@@ -10,6 +10,7 @@
     "test": "react-scripts test",
     "eject": "react-scripts eject"
   },
+  "homepage": "https://park9eon.com/ridi-library",
   "private": false,
   "author": "Park9eon",
   "license": "MIT",
