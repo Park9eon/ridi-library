@@ -5,9 +5,9 @@
  
 1. 초기설정
 
-> $ npm install -g yarm
+> $ npm install -g yarn
 >
-> $ yarm install
+> $ yarn install
 
 `.env` 파일 생성 및 설정
 
@@ -18,7 +18,7 @@ PASSWORD=
 
 2. 실행
 
-> $ yarm start
+> $ yarn start
 
 3. 예시
 
